@@ -706,7 +706,7 @@ def main():
     
     # Define input sizes for testing (as per project requirements)
     # Use smaller sizes for O(n²) algorithms and larger for efficient algorithms
-    input_sizes = [100, 500, 1000, 5000, 10000, 50000, 100000, 500000, 1000000, 5000000, 10000000]
+    input_sizes = [100, 1000, 2000, 3000, 4000, 5000, 10000, 15000, 20000]
     
     print("\n2. Running experimental analysis...")
     print("   Input sizes:", input_sizes)
