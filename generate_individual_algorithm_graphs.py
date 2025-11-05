@@ -12,7 +12,7 @@ import os
 os.makedirs('graphs', exist_ok=True)
 
 # Input sizes
-sizes = np.array([100, 500, 1000, 5000, 10000, 50000, 100000, 500000, 1000000, 5000000, 10000000])
+sizes = np.array([100, 500, 1000, 2000, 3000, 5000, 8000, 10000, 15000, 18000, 20000])
 
 # Experimental data (in milliseconds) - from experimental_analysis.txt
 # Format: [random_data_times]
